@@ -1,0 +1,24 @@
+{
+  "name": "frenchclubbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc -w --skipLibCheck",
+    "dev": "nodemon index.ts"
+  },
+  "keywords": [],
+  "author": "Akirabane",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.5.0",
+    "dotenv": "^10.0.0",
+    "mongoose": "^6.1.4",
+    "vrchat": "^1.6.5",
+    "wokcommands": "^1.5.3"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.4"
+  }
+}
